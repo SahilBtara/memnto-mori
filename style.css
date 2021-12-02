@@ -1,0 +1,53 @@
+body {
+  background: lightcyan;
+  margin: 0;
+  overflow: scroll;
+}
+
+strong {
+  font-size: 40px;
+  margin-left: 25%;
+}
+
+#body {
+  margin: 0 auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  background: transparent;
+}
+
+#container {
+  width: 100%;
+}
+
+.year {
+  display: flex;
+  overflow: scroll;
+}
+
+.week {
+  height: 10px;
+  width: calc(100vw / 52);
+  background: lightyellow;
+  border: 1px solid;
+  margin: 1px;
+}
+
+.past {
+  background: red;
+}
