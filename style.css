@@ -14,8 +14,8 @@ strong {
 
 #body {
   margin: 0 auto;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 nav {
@@ -49,7 +49,7 @@ input {
 }
 
 .week {
-  height: 10px;
+  height: 2vh;
   width: calc(100vw / 52);
   background: lightyellow;
   border: 1px solid;
