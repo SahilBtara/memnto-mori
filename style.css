@@ -2,10 +2,11 @@ body {
   background: lightcyan;
   margin: 0;
   overflow: scroll;
+  font-size: 3vw;
 }
 
 strong {
-  font-size: 40px;
+  font-size: 4vw;
   margin-left: 25%;
 }
 
@@ -45,7 +46,7 @@ input {
   width: calc(100vw / 52);
   background: lightyellow;
   border: 1px solid;
-  margin: 1px;
+  /* margin: 1px; */
 }
 
 .past {

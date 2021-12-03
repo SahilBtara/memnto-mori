@@ -6,6 +6,7 @@ var dob = document.getElementById("birthday");
 dob.addEventListener("change", updateValue);
 
 function updateValue() {
+  removeSelected();
   let age = 0;
   age = calcAge();
   updateColors(age);
@@ -48,6 +49,15 @@ function updateColors(age) {
       if (counter > age) {
         return;
       }
+    }
+  }
+}
+
+function removeSelected() {
+  for (let i = 0; i < 80; i++) {
+    for (let j = 0; j < 52; j++) {
+      let week = document.getElementById("year" + (i + 1) + "-week" + (j + 1));
+      week.classList.remove("past");
     }
   }
 }
