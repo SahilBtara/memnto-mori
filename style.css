@@ -7,7 +7,9 @@ body {
 
 strong {
   font-size: 4vw;
-  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  color: rgb(58, 58, 116);
 }
 
 #body {
@@ -25,7 +27,9 @@ nav {
 }
 
 label {
-  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5vw;
+  color: rgb(58, 58, 116);
 }
 
 input {
@@ -46,7 +50,7 @@ input {
   width: calc(100vw / 52);
   background: lightyellow;
   border: 1px solid;
-  /* margin: 1px; */
+  margin: 1px;
 }
 
 .past {
