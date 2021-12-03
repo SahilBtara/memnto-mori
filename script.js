@@ -1,6 +1,12 @@
 let container = document.getElementById("container");
 createGrid();
 var dob = document.getElementById("birthday");
+// default the date to today's date
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, "0");
+var mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0
+var yyyy = today.getFullYear();
+dob.value = yyyy + "-" + mm + "-" + dd;
 // let age = 0;
 
 dob.addEventListener("change", updateValue);
